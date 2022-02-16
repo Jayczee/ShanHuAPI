@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServerInf   servertype="local" localserver="124.222.114.100" localport="55555" localdbport="1433"  localinitialcatalog="ShanHu" localuid="sa" localpwd="jhkd5960795."  cloudserver="124.222.114.100" cloudport="55556" cloudbport="1433"  cloudinitialcatalog="ShanHu" clouduid="sa" cloudpwd="jhkd5960795." cloudfileport="33333" />
+
+
