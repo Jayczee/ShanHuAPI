@@ -34,6 +34,7 @@ namespace DCYEduWebAPI.BLL
                     s.Sphonenum = dt.Rows[i]["SPhone"].ToString();
                     s.Swxid2 = dt.Rows[i]["SWxId2"].ToString();
                     s.Stotalpoints = Int32.Parse(dt.Rows[i]["STotalPoints"].ToString());
+                    s.Ssex = dt.Rows[i]["Ssex"].ToString();
                     list.Add(s);
                 }
             return list;
@@ -64,6 +65,7 @@ namespace DCYEduWebAPI.BLL
             s.Sphonenum = dr["SPhone"].ToString();
             s.Swxid2 = dr["SWxId2"].ToString();
             s.Stotalpoints= Int32.Parse(dr["STotalPoints"].ToString());
+            s.Ssex = dr["Ssex"].ToString();
             return s;
         }
 
